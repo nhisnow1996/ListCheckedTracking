@@ -62,46 +62,4 @@ Window {
         }
     }
 
-//    Item{
-//        id: listPhones
-//        ListModel{
-//            id: listPhonesModel
-//            ListElement{
-//                Name: "Phone name" + index
-//            }
-//            ListElement{
-//                Name: "Phone name" + index
-
-//            }
-//            ListElement{
-//                Name: "Phone name" + index
-
-//            }
-//        }
-
-//        ListView{
-//            id: listPhonesView
-//            horizontalCenter: parent.horizontalCenter
-//            model: listPhones
-
-//            delegate: Item{
-//                Rectangle{
-//                    height: 60
-//                    width: 700
-//                    border.color: "black"
-//                    border.width: 1
-//                    Text {
-//                        id: name
-//                        text: Name
-//                    }
-//                }
-//                Rectangle{
-//                    height: 40
-//                    width: 40
-//                }
-//            }
-//        }
-//    }
-
-
 }
